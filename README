@@ -1,32 +1,33 @@
-Upon unzipping and reading this file, your folder should contain the following items:
+This repository should contain the following items:
 
 4 Folders:
-	FrontBackMatter
-	Figures
-	Chapters
 	Appendices
+	Chapters
+	Figures
+	FrontBackMatter
 
-5 Files:
-	READ ME FIRST.txt
-	example.bib
-	DoctoralThesis.cls
-	Dissertation.tex
+6 Files:
 	Dissertation.pdf
+	Dissertation.tex
+	DoctoralThesis.cls
+	example.bib
+	README
+	.gitignore
 
-*Please Note: If you tried to compile the document before reading this one, you will have additional files that are created when the document compliation occurs from LaTeX.
+*Please Note: If you tried to compile the document before reading this one, you will have additional files that are created when the document compliation occurs from LaTeX. The gitignore should prevent tracking these for your pushes and updates, but they will be present in your local copy.
 
-This read me file will walk you through using the modified LaTeX Masters/Doctoral Thesis Template for writing and formatting your dissertation according to the regulations of the University of Arizona Graduate College (Modified January of 2019)
 
+This README file will walk you through using the modified LaTeX Masters/Doctoral Thesis Template for writing and formatting your dissertation according to the regulations of the University of Arizona Graduate College (Modified January of 2019).
 
 ***** The four files described below are stored in the main directory of the template: ***** 
 
-example.bib: This file contains example references. You will need to replace this file with your own .bib file that represents the citations you have used in your writing. Once you have your .bib file, you must compile the document "LaTeX", then compile the "BibTex", then compile "Latex" two times to ensure the table of contents is correctly updated.
-
-DoctoralThesis.cls: This is the style file that tells LaTeX how to format all text input you give. It is very unlikely that you should need to change anything in this file.
+Dissertation.pdf: This is the pdf file of the lastest compiled document.
 
 Dissertation.tex: This is the main working file. You will change all the variables in this file to reflect your own informaiton, the committee information, titles and defense dates, etc... NOTE: This is the only document that you will compile from. Compiling requires you to click on TypeSet in the top left corner of the window.
 
-Dissertation.pdf: This is the pdf file of the lastest compiled document.
+DoctoralThesis.cls: This is the style file that tells LaTeX how to format all text input you give. It is very unlikely that you should need to change anything in this file.
+
+example.bib: This file contains example references. You will need to replace this file with your own .bib file that represents the citations you have used in your writing. Once you have your .bib file, you must compile the document "LaTeX", then compile the "BibTex", then compile "Latex" two times to ensure the table of contents is correctly updated.
 
 
 ***** Each section below details the files contained in each folder (subdirectory) *****
