@@ -1,0 +1,68 @@
+Upon unzipping and reading this file, your folder should contain the following items:
+
+4 Folders:
+	FrontBackMatter
+	Figures
+	Chapters
+	Appendices
+
+5 Files:
+	READ ME FIRST.txt
+	example.bib
+	DoctoralThesis.cls
+	Dissertation.tex
+	Dissertation.pdf
+
+*Please Note: If you tried to compile the document before reading this one, you will have additional files that are created when the document compliation occurs from LaTeX.
+
+This read me file will walk you through using the modified LaTeX Masters/Doctoral Thesis Template for writing and formatting your dissertation according to the regulations of the University of Arizona Graduate College (Modified January of 2019)
+
+
+***** The four files described below are stored in the main directory of the template: ***** 
+
+example.bib: This file contains example references. You will need to replace this file with your own .bib file that represents the citations you have used in your writing. Once you have your .bib file, you must compile the document "LaTeX", then compile the "BibTex", then compile "Latex" two times to ensure the table of contents is correctly updated.
+
+DoctoralThesis.cls: This is the style file that tells LaTeX how to format all text input you give. It is very unlikely that you should need to change anything in this file.
+
+Dissertation.tex: This is the main working file. You will change all the variables in this file to reflect your own informaiton, the committee information, titles and defense dates, etc... NOTE: This is the only document that you will compile from. Compiling requires you to click on TypeSet in the top left corner of the window.
+
+Dissertation.pdf: This is the pdf file of the lastest compiled document.
+
+
+***** Each section below details the files contained in each folder (subdirectory) *****
+
+FrontBackMatter Folder:
+
+This folder contains six .tex files where you will write the appropiate information accordingly.
+
+Symbols.tex: This file is setup as a three column table where columns are seperated by the "&" symbol. The first column contains the symbol, the second column contains the name of the symbol and the third column contains the unit (if necessary)
+
+Quotation.tex: This file contains the normal page layout with extra space before the quote begins. The text inside {} should be replaced with the quote you want to include. The name that follows \hfill formats the author's name to right aligned.
+
+Constants.tex: This file is setup as a three column table where columns are seperated by the "&" symbol. The first column contains the name, the second column contains the symbolof the symbol and the third column contains the unit (if necessary)
+
+Acknowledgements.tex: This file is setup to have consistent layout title (ACKNOWLEDGEMENTS in all caps and centered on page) The rest of the document is ready for you to type any and all acknowledgements you need to include. Use regular LaTeX commands for styling (paragraphs, bolding, italics)
+
+Abstracts.tex: This file is setup to have consistent layout title (ABSTRACT in all caps and centered on page) The rest of the document is ready for you to type the required abstract (normally kept to one page). Use regular LaTeX commands for styling (paragraphs, bolding, italics)
+
+Abbreviations.tex: This file is setup as a two column table where columns are separated by the "&" symbol. The first column contains the abbreviations and the second column is the meaning of the abbreviation.
+
+
+Figures Folder:
+
+This folder only contains an example image (Electron.pdf)  used in the template. You can delete this file and begin adding your own figures in this folder. See Chapter 1 text on how to type code that includes the figures in the main body of your text and acceptable file types (Refer to code lines 247–275 of the original and unedited version Chapter1.tex).
+
+
+Chapters Folder:
+
+The template you received includes five chapters and a chapter template. Since most dissertations are 5 chapters in length, you may not need to use the ChapterTemplate.tex at all. Chapter1.tex file contains a lot of basic information on using LaTeX and this template and may be worth making a copy of before beginning your own chapter1.tex
+
+
+Appendices Folder:
+
+The template you received include one premade AppendixA.tex file and an AppendixTemplate.tex file. You will need to use the AppendixTemplate.tex file to create new appendices (AppendixB.tex, AppendixC.tex, etc.) As you add appendices in this folder, you will also have to use the \include command in the Dissertation.tex file in the appendices section of the document. Then recompile once to include the appendix in the .pdf output. You must recompile a second time to update the Table of Contents with the new appendix.
+
+
+I hope this serves you well in getting started with your dissertation writing at the University of Arizona, but if you still have questions below is a great resource:
+
+Latex forum: https://latex.org/forum/tag/masters-doctoral-thesis
